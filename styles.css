@@ -203,7 +203,7 @@ button {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 7rem 0 5rem;
+	padding: 7rem 0;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -238,7 +238,7 @@ button {
 }
 
 .attribution {
-	margin: 1rem 0;
+	margin: 3rem 0 0;
 	font-size: 1.4rem;
 	text-align: center;
 	color: var(--Rock-Gradient);
