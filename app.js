@@ -120,7 +120,7 @@ closeBtn.addEventListener("click", () => {
 
 // !  PLAY AGAIN
 playAgain.addEventListener("click", () => {
-	selection.style.display = "block";
+	selection.style.display = "flex";
 	gamePlay.style.display = "none";
 });
 
