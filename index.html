@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<title>Frontend Mentor | Rock, Paper, Scissors</title>
+	</head>
+	<body>
+		<main class="container">
+			<section class="game-section">
+				<div class="details-display">
+					<div class="game">
+						<img src="./images/logo.svg" class="logo-img" alt="" />
+					</div>
+					<div class="score-board">
+						<p class="score-text">Score</p>
+						<p class="score"></p>
+					</div>
+				</div>
+			</section>
+
+			<!-- ! GAME  -->
+			<section class="game-selection">
+				<div class="triangle">
+					<img src="./images/bg-triangle.svg" class="trn-img" alt="triangle" />
+
+					<section class="game-btns">
+						<button value="paper" class="paper sel-btn">
+							<img src="./images/icon-paper.svg" alt="" />
+						</button>
+						<button value="scissors" class="scissors sel-btn">
+							<img src="./images/icon-scissors.svg" alt="" />
+						</button>
+						<button value="rock" class="rock sel-btn">
+							<img src="./images/icon-rock.svg" alt="" />
+						</button>
+					</section>
+				</div>
+
+				<section class="game-play">
+					<div class="selections">
+						<div class="player-selection">
+							<div class="sel-img pl-sel-img">
+								<img src="" class="player-img" alt="" />
+							</div>
+							<p class="sel-text">you picked</p>
+						</div>
+						<div class="computer-selection">
+							<div class="sel-img cmp-sel-img">
+								<img src="" class="comp-img" alt="" />
+							</div>
+							<p class="sel-text">the house picked</p>
+						</div>
+					</div>
+					<div class="control">
+						<p class="message"></p>
+						<button class="play-again">Play again</button>
+					</div>
+				</section>
+				<!-- ! GAME  -->
+			</section>
+			<section class="help">
+				<button class="btn rules-btn">Rules</button>
+				<button class="btn bonus-btn">Bonus Game</button>
+			</section>
+			<section class="selected-game"></section>
+			<!-- ! HELP  -->
+
+			<div class="rules d-none">
+				<h2 class="rules-text">Rules</h2>
+				<img src="./images/image-rules.svg" alt="" />
+				<img src="./images/icon-close.svg" alt="" class="close" />
+			</div>
+			<!-- ! HELP  -->
+
+			You Picked The House Picked You Win You Lose Play Again
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a target="_blank" href="https://linktr.ee//didiauche">Didia Uchenna</a
+				>.
+			</div>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
