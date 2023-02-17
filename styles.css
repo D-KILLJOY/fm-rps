@@ -147,6 +147,7 @@ button {
 
 .selections {
 	width: 90%;
+	max-width: 50rem;
 	margin: 0 auto;
 	text-transform: uppercase;
 	display: flex;
@@ -196,6 +197,7 @@ button {
 	color: var(--Dark-Text);
 	font-weight: 700;
 	letter-spacing: 0.1rem;
+	cursor: pointer;
 }
 
 /* ! MAIN  GAME */
@@ -276,6 +278,12 @@ button {
 		outline-width: 2rem;
 	}
 
+	.sel-img {
+		height: 10rem;
+		width: 10rem;
+		outline-width: 2rem;
+	}
+
 	.details-display {
 		width: 80%;
 	}
@@ -339,5 +347,12 @@ button {
 
 	.help button {
 		cursor: pointer;
+	}
+	.control {
+		margin: 15rem auto -1rem;
+	}
+
+	.selections {
+		margin-top: 5rem;
 	}
 }
