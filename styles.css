@@ -172,6 +172,8 @@ button {
 	justify-content: center;
 	outline-width: 1.3rem;
 	outline-style: solid;
+	scale: 0;
+	animation: showImg 1s ease-out forwards;
 }
 
 .control {
@@ -354,5 +356,14 @@ button {
 
 	.selections {
 		margin-top: 5rem;
+	}
+}
+
+@keyframes showImg {
+	0% {
+		scale: 0;
+	}
+	100% {
+		scale: 1;
 	}
 }
